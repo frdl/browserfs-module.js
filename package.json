@@ -1,6 +1,6 @@
 {
-  "name": "browserfs-module",
-  "version": "0.4.0",
+  "name": "@frdl/webmodules",
+  "version": "0.0.1",
   "description": "require() with BrowserFS",
   "main": "browserfs-module.js",
   "keywords": [
@@ -10,35 +10,12 @@
     "module"
   ],
   "dependencies": {
-    "browserfs": "^1.4.3"
+    "browserfs": "latest",
+    "@frdl/frdl": "latest"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-power-assert": "^1.0.0",
-    "bower": "^1.7.9",
-    "electron": "^1.7.6",
-    "fso": "^2.5.12",
-    "isparta": "^4.0.0",
-    "json-loader": "^0.5.7",
-    "karma": "^1.7.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-coverage": "^1.1.1",
-    "karma-detect-browsers": "^2.2.5",
-    "karma-electron": "^5.2.1",
-    "karma-firefox-launcher": "^1.0.1",
-    "karma-ie-launcher": "^1.0.0",
-    "karma-mocha": "^1.3.0",
-    "karma-mocha-own-reporter": "^1.1.2",
-    "karma-opera-launcher": "^1.0.0",
-    "karma-safari-launcher": "^1.0.0",
-    "karma-webpack": "^2.0.4",
-    "mocha": "^3.5.0",
-    "mocha-lazy-bdd": "^0.1.2",
-    "power-assert": "^1.4.4",
-    "webpack": "^3.5.6"
+    "browserfs-module": "latest",
+    "webpack": "latest"
   },
   "scripts": {
     "test": "mocha && karma start --single-run",
