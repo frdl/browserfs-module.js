@@ -1,0 +1,36 @@
+{
+  "name": "@frdl/webmodules",
+  "version": "0.0.1",
+  "description": "require() with BrowserFS and other env/shims... fork of https://github.com/Narazaka/browserfs-module.js browserfs-module",
+  "main": "browserfs-module.js",
+  "keywords": [
+    "browserfs",
+    "browser",
+    "require",
+    "module",
+    "frdl-plug",
+    "webfantize"
+  ],
+  "dependencies": {
+    "browserfs": "latest",
+    "@frdl/frdl": "latest",
+    "@frdl/custom-require": "latest"
+  },
+  "devDependencies": {
+    "webpack": "latest"
+  },
+  "scripts": {
+    "test": "mocha && karma start --single-run",
+    "build": "node --harmony ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/frdl/webmodules.git"
+  },
+  "author": "Till Wehowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Narazaka/browserfs-module.js/issues"
+  },
+  "homepage": "https://github.com/frdl/webmodules"
+}
